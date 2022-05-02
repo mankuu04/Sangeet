@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+
+
+.infocontainer {
+    /* background-color:blue; */
+    height: 50vh;
+    width: 80vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mypic img {
+    height: 50vh;
+}
+
+
+.myinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hello {
+    font-size: 45px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.moreabout {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+}
+
+.button {
+    margin-top: 13px;
+}
+
+.buttons button {
+    padding: 10px;
+    border-radius: 35px;
+    color: white;
+    background-color: rgb(13, 149, 240);
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 0 3px;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color:rgb(13, 149, 240);
+    background-color:white;
+
+}
+
+.sidebar nav li a{text-decoration: none;
+color:black;
+font-family: 'Open Sans', sans-serif;}
+
+
+.container{background-color:rgb(53, 192, 247);
+height:100%;
+width:100vw;}
